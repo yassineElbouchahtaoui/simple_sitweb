@@ -1,0 +1,22 @@
+.info-personnel{
+   margin-top:100px;
+   margin-left: 30%;
+}
+.sex-person,.nationalite,.btn{
+    margin-left: 30%;
+    margin-top:20px;
+    padding: 10px;
+}
+
+.btn{
+    background-color: rgb(199, 199, 223);
+}
+.divv{
+    background-color: bisque;
+}
+
+
+.sels{
+  
+    display:inline;
+}

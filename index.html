@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="javascript.js">
+    
+    </script>
+</head>
+<body>
+    <div class="divv">
+
+    <h1>INSCRIPTION</h1>
+ 
+        <form class="info-personnel">
+            <label for="nom">NOM :</label>
+            <input id="nom" type="text">
+            <label for="prenom" >PRENOM :</label>
+            <input id="prenom" type="text"><br><br><br>
+            <label for="age" >AGE :</label>
+            <input id="age" type="number">
+        </form>
+
+        <form class="sex-person">
+                 <label >Sexe :</label>
+                <input id="Famme" type="radio" name="gender" checked> Famme
+                <input id="Homme" type="radio" name="gender" > Homme
+                
+         </form>
+         <form class="nationalite">
+                <label for="">Nationalite :</label>
+                    <input id="maroc" type="radio" name="gender" value="maroc" onclick="uncheked()" checked> Maroccaine
+                    <input id="etrange" type="radio" name="gender" onclick="cheked()" > Etrangé
+                  <div class="sels" >  
+                      <select id="someDropdown">
+                        <!-- <option value="france">france</option>
+                        <option value="spain">spain</option>
+                        <option value="libya">libya</option>
+                        <option value="algere">algere</option> -->
+                      </select>
+                    </div>
+                    
+        </form><br>
+        <form class="nationalite">
+                <label for="">Interets :</label><br><br>
+                
+                <input type="checkbox" name="vehicle1" value="lecteur"> lecteur
+                <input type="checkbox" name="vehicle1" value="cenima"> cenima 
+                <input type="checkbox" name="vehicle1" value="sports"> sports <br> 
+                <input type="checkbox" name="vehicle1" value="thetre"> thetre
+                <input type="checkbox" name="vehicle1" value="voyege"> voyege
+                <input type="checkbox" name="vehicle1" value="cseinces"> cseinces
+            <br>
+         </form>
+         <button class="btn" type="button" onclick="myfun()">Afficher</button>
+        </div>
+        <p id="resultat"></p>
+
+   
+</body>
+</html>
